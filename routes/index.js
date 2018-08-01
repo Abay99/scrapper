@@ -118,4 +118,14 @@ router.get('/space-complexity-of-algorithms', function (req, res, next) {
     })
 });
 
+router.get('/time-complexity-of-algorithms', function (req, res, next) {
+    var url = "https://www.studytonight.com/data-structures/time-complexity-of-algorithms";
+    var ss;
+    request(url, function (err, response, body) {
+        ss = scrap(body);
+        res.send(ss);
+
+    })
+});
+
 module.exports = router;
