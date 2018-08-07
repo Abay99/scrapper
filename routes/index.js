@@ -118,4 +118,174 @@ router.get('/space-complexity-of-algorithms', function (req, res, next) {
     })
 });
 
+router.get('/time-complexity-of-algorithms', function (req, res, next) {
+    var url = "https://www.studytonight.com/data-structures/time-complexity-of-algorithms";
+    var ss;
+    request(url, function (err, response, body) {
+        ss = scrap(body);
+        res.send(ss);
+
+    })
+});
+
+router.get('/linear-search-algorithm', function (req, res, next) {
+    var url = "https://www.studytonight.com/data-structures/linear-search-algorithm";
+    var ss;
+    request(url, function (err, response, body) {
+        ss = scrap(body);
+        res.send(ss);
+
+    })
+});
+
+router.get('/binary-search-algorithm', function (req, res, next) {
+    var url = "https://www.studytonight.com/data-structures/binary-search-algorithm";
+    var ss;
+    request(url, function (err, response, body) {
+        ss = scrap(body);
+        res.send(ss);
+
+    })
+});
+
+router.get('/bubble-sort', function (req, res, next) {
+    var url = "https://www.studytonight.com/data-structures/bubble-sort";
+    var ss;
+    request(url, function (err, response, body) {
+        ss = scrap(body);
+        res.send(ss);
+
+    })
+});
+
+router.get('/selection-sorting', function (req, res, next) {
+    var url = "https://www.studytonight.com/data-structures/selection-sorting";
+    var ss;
+    request(url, function (err, response, body) {
+        ss = scrap(body);
+        res.send(ss);
+
+    })
+});
+
+router.get('/insertion-sorting', function (req, res, next) {
+    var url = "https://www.studytonight.com/data-structures/insertion-sorting";
+    var ss;
+    request(url, function (err, response, body) {
+        ss = scrap(body);
+        res.send(ss);
+
+    })
+});
+
+router.get('/merge-sort', function (req, res, next) {
+    var url = "https://www.studytonight.com/data-structures/merge-sort";
+    var ss;
+    request(url, function (err, response, body) {
+        ss = scrap(body);
+        res.send(ss);
+
+    })
+});
+
+router.get('/quick-sort', function (req, res, next) {
+    var url = "https://www.studytonight.com/data-structures/quick-sort";
+    var ss;
+    request(url, function (err, response, body) {
+        ss = scrap(body);
+        res.send(ss);
+
+    })
+});
+
+router.get('/heap-sort', function (req, res, next) {
+    var url = "https://www.studytonight.com/data-structures/heap-sort";
+    var ss;
+    request(url, function (err, response, body) {
+        ss = scrap(body);
+        res.send(ss);
+
+    })
+});
+
+router.get('/stack-data-structure', function (req, res, next) {
+    var url = "https://www.studytonight.com/data-structures/stack-data-structure";
+    var ss;
+    request(url, function (err, response, body) {
+        ss = scrap(body);
+        res.send(ss);
+
+    })
+});
+
+router.get('/queue-data-structure', function (req, res, next) {
+    var url = "https://www.studytonight.com/data-structures/queue-data-structure";
+    var ss;
+    request(url, function (err, response, body) {
+        ss = scrap(body);
+        res.send(ss);
+
+    })
+});
+
+router.get('/circular-queue', function (req, res, next) {
+    var url = "https://www.studytonight.com/data-structures/circular-queue";
+    var ss;
+    request(url, function (err, response, body) {
+        ss = scrap(body);
+        res.send(ss);
+
+    })
+});
+
+router.get('/queue-using-stack', function (req, res, next) {
+    var url = "https://www.studytonight.com/data-structures/queue-using-stack";
+    var ss;
+    request(url, function (err, response, body) {
+        ss = scrap(body);
+        res.send(ss);
+
+    })
+});
+
+router.get('/introduction-to-linked-list', function (req, res, next) {
+    var url = "https://www.studytonight.com/data-structures/introduction-to-linked-list";
+    var ss;
+    request(url, function (err, response, body) {
+        ss = scrap(body);
+        res.send(ss);
+
+    })
+});
+
+router.get('/linked-list-vs-array', function (req, res, next) {
+    var url = "https://www.studytonight.com/data-structures/linked-list-vs-array";
+    var ss;
+    request(url, function (err, response, body) {
+        ss = scrap(body);
+        res.send(ss);
+
+    })
+});
+
+router.get('/linear-linked-list', function (req, res, next) {
+    var url = "https://www.studytonight.com/data-structures/linear-linked-list";
+    var ss;
+    request(url, function (err, response, body) {
+        ss = scrap(body);
+        res.send(ss);
+
+    })
+});
+
+router.get('/circular-linked-list', function (req, res, next) {
+    var url = "https://www.studytonight.com/data-structures/circular-linked-list";
+    var ss;
+    request(url, function (err, response, body) {
+        ss = scrap(body);
+        res.send(ss);
+
+    })
+});
+
 module.exports = router;
